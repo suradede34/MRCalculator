@@ -1,0 +1,248 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 375px;
+    height: 1088px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.showcase {
+    width: 100%;
+    border: 1px solid #e9ecee;
+    width: 375px;
+    height: 698px;
+}
+
+.header {
+    width: 100%;
+    padding: 32px 24px;
+    width: 327px;
+    height: 62px;
+}
+
+.header h1 {
+    font-size: 23px;
+    color: #133041;
+}
+
+p {
+    color: #4E6E7E;
+    margin-top: 8px;
+}
+
+.channelReviews {
+    width: 100%;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 327px;
+    height: 468px;
+
+}
+
+.box {
+    width: 100%;
+    margin-bottom: 24px;
+    width: 327px;
+    height: 84px; 
+}
+
+.text {
+    border-radius: 4px;
+    border: 1px solid #6B94A8;
+    width: 283px;
+    height: 48px;
+    padding: 0px 16px 0px 16px;
+    gap: 24px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 44px;
+    height: 48px;
+}
+
+.featureProducts {
+    width: 375px;
+    height: 455px;
+    background: #133041;
+}
+.boxEnd{
+    width: 327px;
+    height: 144px;
+}
+.boxIn{
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: #D8DB2F26;
+    margin-bottom: 12px;
+}
+.boxIn2{
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: white;
+}
+.radio{
+    width: 38.5px;
+}
+
+.Btn{
+    width: 327px;
+    height: 56px;
+    border-radius: 999px;
+    margin-left: 24px;
+    border: 1px solid #D8DB2F;
+    background-color: #D8DB2F;
+}
+.feature{
+    width: 327px;
+    height: 142px;
+    padding-top: 32px;
+    margin-left: 24px;
+    h1{
+        height: 30px;
+        color: white;
+    }
+    p{
+        width: 327px;
+        height: 96px;
+        color: #9ABED5;
+    }
+}
+.featureBox{
+    width: 327px;
+    height: 225px;
+    border-radius: 8px;
+    border: 4px;
+    background: #00000040;
+    border-top: 4px solid var(--color-lime, #D8DB2F)
+}
+.featureBox p{
+    width: 195px;
+    height: 24px;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.featureBox .writing{
+    width: 231px;
+    height: 24px;
+}
+@media screen and (min-width: 768px) {
+    .body{
+        background-color: #E4F4FD;
+    }
+    .container{
+        width: 688px;
+        height: 1113px;
+        max-width: 1008px;
+        border-radius: 24px;
+    }
+    .showcase{
+        width: 688px;
+        height: 606px;
+    }
+    .channelReviews{
+        width: 608px;
+        height: 360px;
+    }
+    .box{
+        width: 608px;
+        height: 84px;
+    }
+    .text{
+        width: 564px;
+        height: 48px;
+    }
+    .featureProducts{
+        width: 600px;
+        height: 400px;
+        margin-top: 60px;
+        margin-left: 44px;
+    }
+    .feature h1{
+        width: 564px;
+    }
+    .feature p{
+        width: 564px;
+    }
+    .featureBox{
+        width: 564px;
+        margin: -54px -6px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 1008px;
+        height: 606px;
+        max-width: 1008px;
+        border-radius: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header{
+        margin-top: -23px;
+        margin-bottom: 44px;
+    }
+    .showcase {
+        width: 504px;
+        height: 606px;
+    }
+    .channelReviews {
+        width: 424px;
+        height: 360px; 
+        margin-top: -50px;
+    }
+    .box {
+        width: 424px;
+        height: 84px; 
+    }
+    .text {
+        width: 380px;
+        height: 48px;
+    }
+    .boxEnd{
+        width: 424px;
+        height: 144px;
+    }
+    .Btn{
+        margin-top: 87px;
+    }
+    .featureProducts {
+        width: 504px;
+        height: 606px;
+        border-radius: 0px 0px 0px 80px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .feature h1{
+        margin-left: 16px;
+        width: 185px;
+        height: 30px;
+    }
+    .feature p{
+        width: 446px;
+        height: 72px;
+        margin-left: 16px;
+    }
+    .featureBox{
+        width: 424px;
+        height: 293px;
+        border-radius: 8px;
+        border: 4px;
+        margin: 40px 16px;
+    }
+}

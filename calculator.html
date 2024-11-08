@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/calculator.css">
+  <script src="assets/js/calculator.js" defer></script>
+</head>
+<body class="body">
+  <div class="container">
+    <div class="showcase">
+      <div class="header">
+        <h1>Mortgage Calculator</h1>
+        <p>Clear All</p>
+      </div>
+      <div class="channelReviews">
+        <div class="box">
+          <p>Mortgage Amount</p>
+          <div class="input-wrapper">
+            <img src="assets/img/Prefix.png" class="photo">
+            <input id="amount" class="text" type="text">
+          </div>
+        </div>
+        <div class="box">
+          <p>Mortgage Term</p>
+          <div class="input-wrapper">
+            <input id="term" class="text" type="text">
+            <img src="assets/img/Prefix (1).png" class="photo">
+          </div>
+        </div>
+        <div class="box">
+          <p>Interest Rate</p>
+          <div class="input-wrapper"> 
+            <input id="rate" class="text" type="text">
+            <img src="assets/img/Prefix (2).png" class="photo">
+          </div>
+        </div>
+        <div class="boxEnd">
+          <p>Mortgage Type</p>
+          <div class="boxIn"><input class="radio" id="radio" type="radio">Repayment </div>
+          <div class="boxIn2"><input class="radio" id="radio2" type="radio">Interest Only</div>
+        </div>
+      </div>
+      <button id="calculateBtn" class="Btn"> <img src="assets/img/Vector (1).png"> Calculate Repayments</button>
+    </div>
+    <div class="featureProducts">
+      <div class="feature">
+        <h1>Your results</h1>
+        <p>Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again.</p>
+    <div class="featureBox">
+      <p>Your monthly repayments</p>
+      <h1 id="monthly"></h1>
+      <p class="writing">Total you'll repay over the term</p>
+      <h1 id="total"></h1>
+    </div>
+  </div>
+</body>
+</html>
